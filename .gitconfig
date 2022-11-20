@@ -1,0 +1,8 @@
+[core]
+	quotepath = false
+[user]
+	name = paruma
+	email = paruma184az@gmail.com
+
+[init]
+	defaultBranch = main
