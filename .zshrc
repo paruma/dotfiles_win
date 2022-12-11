@@ -68,3 +68,9 @@ export TZ="Asia/Tokyo"
 export LANGUAGE=en_US.UTF-8
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
+
+
+# 【WSL】クリップボードを使ってコピー & ペーストを行う - Qiita https://qiita.com/eyuta/items/b956a376ba719fd30f9f
+
+alias pbcopy="clip.exe"
+alias pbpaste="powershell.exe -command 'Get-Clipboard'"
