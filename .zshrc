@@ -85,3 +85,24 @@ export PATH=/home/paruma/.volta/bin:$PATH
 
 export PIPENV_VENV_IN_PROJECT=1
 source "$HOME/.rye/env"
+
+
+# タイトル変更
+preexec() {
+  local -a words=(${(z)1})
+  local shown=${(j: :)words[1,3]}
+  print -Pn "\e]0;▶ $shown\a"
+}
+
+precmd() {
+  local short_path
+  short_path=$(print -P '%~')
+
+  local parts=(${(s:/:)short_path})
+  local len=${#parts}
+  local start=$(( len > 3 ? len - 2 : 1 ))
+  local last3=${(j:/:)parts[start,len]}
+
+  print -Pn "\e]0;${last3}\a"
+}
+
