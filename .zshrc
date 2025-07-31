@@ -74,3 +74,14 @@ export LC_ALL=en_US.UTF-8
 
 alias pbcopy="clip.exe"
 alias pbpaste="powershell.exe -command 'Get-Clipboard'"
+[ -f "/home/paruma/.ghcup/env" ] && source "/home/paruma/.ghcup/env" # ghcup-env
+
+
+
+# ~/bin
+
+export PATH=$PATH:~/bin
+export PATH=/home/paruma/.volta/bin:$PATH
+
+export PIPENV_VENV_IN_PROJECT=1
+source "$HOME/.rye/env"
