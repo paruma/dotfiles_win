@@ -1,25 +1,16 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-02-18T17:58:43.779-00:00",
+	"CreationDate" : "2025-08-02T00:45:17.003-00:00",
 	"Sources" : 
 	[
 		{
 			"Packages" : 
 			[
 				{
-					"PackageIdentifier" : "AgileBits.1Password"
-				},
-				{
-					"PackageIdentifier" : "Lexikos.AutoHotkey"
-				},
-				{
-					"PackageIdentifier" : "Coq.CoqPlatform"
+					"PackageIdentifier" : "AutoHotkey.AutoHotkey"
 				},
 				{
 					"PackageIdentifier" : "FireAlpaca.FireAlpaca"
-				},
-				{
-					"PackageIdentifier" : "flux.flux"
 				},
 				{
 					"PackageIdentifier" : "Git.Git"
@@ -31,33 +22,6 @@
 					"PackageIdentifier" : "Logitech.Options"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.Edge"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.WindowsTerminal"
-				},
-				{
-					"PackageIdentifier" : "OBSProject.OBSStudio"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.OneDrive"
-				},
-				{
-					"PackageIdentifier" : "Valve.Steam"
-				},
-				{
-					"PackageIdentifier" : "SlackTechnologies.Slack"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.7"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2010.x64"
 				},
 				{
@@ -67,25 +31,19 @@
 					"PackageIdentifier" : "Google.JapaneseIME"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerToys"
+					"PackageIdentifier" : "Oracle.MySQLWorkbench"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
+					"PackageIdentifier" : "Apple.AppleMobileDeviceSupport"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2012.x86"
+					"PackageIdentifier" : "NickeManarin.ScreenToGif"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
+					"PackageIdentifier" : "Apple.Bonjour"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2008.x64"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VisualStudioCode"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.Runtime.3_1"
 				},
 				{
 					"PackageIdentifier" : "OpenJS.NodeJS"
@@ -94,31 +52,118 @@
 					"PackageIdentifier" : "Logitech.OptionsPlus"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
+					"PackageIdentifier" : "Adobe.Acrobat.Reader.64-bit"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2008.x86"
-				},
-				{
-					"PackageIdentifier" : "Nvidia.GeForceExperience"
+					"PackageIdentifier" : "Apple.AppleApplicationSupport.x64"
 				},
 				{
 					"PackageIdentifier" : "Starship.Starship"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2010.x86"
+					"PackageIdentifier" : "Google.Chrome"
 				},
 				{
-					"PackageIdentifier" : "Google.Chrome"
+					"PackageIdentifier" : "Coq.CoqPlatform"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Edge"
+				},
+				{
+					"PackageIdentifier" : "OBSProject.OBSStudio"
+				},
+				{
+					"PackageIdentifier" : "Valve.Steam"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
+				},
+				{
+					"PackageIdentifier" : "Python.Launcher"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2012.x86"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.7"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.Runtime.8"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerShell"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.Runtime.3_1"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2008.x86"
+				},
+				{
+					"PackageIdentifier" : "Apple.AppleApplicationSupport.x86"
+				},
+				{
+					"PackageIdentifier" : "Intel.IntelDriverAndSupportAssistant"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2010.x86"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.PowerToys"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2012.x64"
 				},
 				{
-					"PackageIdentifier" : "Intel.IntelDriverAndSupportAssistant"
+					"PackageIdentifier" : "Microsoft.DotNet.AspNetCore.8"
+				},
+				{
+					"PackageIdentifier" : "AgileBits.1Password"
+				},
+				{
+					"PackageIdentifier" : "flux.flux"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.OneDrive"
+				},
+				{
+					"PackageIdentifier" : "Wondershare.Filmora"
+				},
+				{
+					"PackageIdentifier" : "SlackTechnologies.Slack"
+				},
+				{
+					"PackageIdentifier" : "Python.Python.3.11"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VisualStudioCode"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Teams"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.AppInstaller"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.UI.Xaml.2.7"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.UI.Xaml.2.8"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCLibs.Desktop.14"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsTerminal"
 				}
 			],
 			"SourceDetails" : 
@@ -130,5 +175,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.4.10173"
+	"WinGetVersion" : "1.11.430"
 }
