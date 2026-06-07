@@ -8,3 +8,6 @@ menus
 ptpython
 pulse
 wslu
+.config/uv/
+.config/fish/conf.d/uv.env.fish
+.config/Code/
