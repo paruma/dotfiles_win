@@ -106,3 +106,9 @@ precmd() {
   print -Pn "\e]0;${last3}\a"
 }
 
+# bat, less 閉じても消えないようにする
+export LESS='-X'
+
+
+. "$HOME/.local/bin/env"
+eval "$(direnv hook zsh)"
