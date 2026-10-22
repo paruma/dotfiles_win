@@ -1,0 +1,4 @@
+[tools]
+node = "26.12.1"
+npm = "11.4.2"
+"npm:@openai/codex" = "0.163.0"

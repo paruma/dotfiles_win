@@ -16,8 +16,8 @@ source /home/linuxbrew/.linuxbrew/share/zsh-syntax-highlighting/zsh-syntax-highl
 source /home/linuxbrew/.linuxbrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 
-# ==== asdf ====
-export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+# ==== mise ====
+eval "$(mise activate zsh)"
 
 
 # ==== peco ====
@@ -74,17 +74,13 @@ export LC_ALL=en_US.UTF-8
 
 alias pbcopy="clip.exe"
 alias pbpaste="powershell.exe -command 'Get-Clipboard'"
-[ -f "/home/paruma/.ghcup/env" ] && source "/home/paruma/.ghcup/env" # ghcup-env
 
 
 
 # ~/bin
 
 export PATH=$PATH:~/bin
-export PATH=/home/paruma/.volta/bin:$PATH
 
-export PIPENV_VENV_IN_PROJECT=1
-source "$HOME/.rye/env"
 
 
 # タイトル変更

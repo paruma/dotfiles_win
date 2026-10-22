@@ -1,3 +1,3 @@
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
-export PATH="$HOME/.elan/bin:$PATH"
+export PATH="$HOME/.local/share/mise/shims:$PATH"
