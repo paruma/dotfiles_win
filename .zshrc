@@ -17,7 +17,7 @@ source /home/linuxbrew/.linuxbrew/share/zsh-autosuggestions/zsh-autosuggestions.
 
 
 # ==== asdf ====
-. /home/linuxbrew/.linuxbrew/opt/asdf/libexec/asdf.sh
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
 
 # ==== peco ====
